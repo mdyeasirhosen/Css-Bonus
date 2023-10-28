@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Photo-Album{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .photo-frame{
+            height: 225px;
+            width: 300px;
+            border: 10px solid salmon;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+        .photo-frame img{
+            width: 100%;
+          
+        }
+        .photo-frame:hover .photo img{
+            transform:  rotate(360deg);
+            transition: transform 2s;
+            cursor: pointer;
+            
+        }
+        .photo-detils{
+            position: absolute;
+            height: 225px;
+            width: 300px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detils {
+            display: block;
+            cursor: pointer;
+            background-color: rgba(127, 255, 212, .5);
+            
+
+        }
+
+        .photo-frame:hover .photo-detils h3{
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+        .photo-frame:hover .photo-detils p{
+
+            color: white;
+            text-align: justify;
+
+        }
+
+
+
+        
+    </style>
+
+    
+</head>
+<body>
+    <h1>My Photo Album</h1>
+    <section class="Photo-Album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="./Imges/Tiger.jpg" alt=""></div>
+                <div class="photo-detils">
+                    <h3>The Royel Bengal Tiger</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+                </div>
+        </div>
+
+    </div><div class="photo-frame">
+        <div class="photo">
+            <img src="./Imges/Tiger.jpg" alt=""></div>
+            <div class="photo-detils">
+                <h3>The Royel Bengal Tiger</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+            </div>
+    </div> </div><div class="photo-frame">
+        <div class="photo">
+            <img src="./Imges/Tiger.jpg" alt=""></div>
+            <div class="photo-detils">
+                <h3>The Royel Bengal Tiger</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+            </div>
+    </div> </div><div class="photo-frame">
+        <div class="photo">
+            <img src="./Imges/Tiger.jpg" alt=""></div>
+            <div class="photo-detils">
+                <h3>The Royel Bengal Tiger</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+            </div>
+    </div> </div><div class="photo-frame">
+        <div class="photo">
+            <img src="./Imges/Tiger.jpg" alt=""></div>
+            <div class="photo-detils">
+                <h3>The Royel Bengal Tiger</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident tempore eveniet sapiente optio reprehenderit placeat quasi architecto sequi. Adipisci assumenda laudantium porro nisi maxime voluptatem pariatur et dolor numquam.</p>
+            </div>
+    </div>
+    </section>
+
+</body>
+</html>
